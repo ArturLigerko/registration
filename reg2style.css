@@ -1,0 +1,62 @@
+body {
+  background-color: #bb9797;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+select,
+input[type="course"],
+input[type="time"],
+input[type="desc"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #17a035;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.column {
+  background-color: #dbcfcf;
+  padding: 20px;
+  border-radius: 5px;
+}

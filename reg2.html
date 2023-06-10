@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="reg2style.css">
+</head>
+<body>
+<div class="container">
+  <div class="column">
+    <h1>Регистрация</h1>
+
+    <form>
+      <label for="course">Выберите курс для покупки:</label>
+      <select id="course" name="course" required>
+        <option value="">-без выбора-</option>
+        <option value="python">Курс по Python</option>
+        <option value="js">Курс по JavaScript</option>
+        <option value="java">Курс по Java</option>
+        <option value="C">Курс по C</option>
+        <option value="C#">Курс по C#</option>
+        <option value="C++">Курс по C++</option>
+      </select>
+
+      <label for="time">Выберите время, когда вам будет удобно присутствовать на уроках:</label>
+      <select id="time" name="time" required>
+        <option value="">-без выбора-</option>
+        <option value="00">00:00 - 2:00</option>
+        <option value="02">2:00 - 4:00</option>
+        <option value="04">4:00 - 6:00</option>
+        <option value="06">6:00 - 8:00</option>
+        <option value="08">8:00 - 10:00</option>
+        <option value="010">10:00 - 12:00</option>
+        <option value="012">12:00 - 14:00</option>
+        <option value="014">14:00 - 16:00</option>
+        <option value="016">16:00 - 18:00</option>
+        <option value="018">18:00 - 20:00</option>
+        <option value="020">20:00 - 22:00</option>
+        <option value="022">22:00 - 00:00</option>
+      </select>
+
+      <label for="desc">Пожелания либо просьба для преподавателя:</label>
+      <textarea id="desc" name="desc" rows="5"></textarea>
+
+      <input type="submit" value="Зарегистрироваться">
+    </form>
+  </div>
+</div>
+</body>
+<script src="perehod.js"></script>
+</html>
